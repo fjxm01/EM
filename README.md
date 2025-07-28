@@ -1,7 +1,7 @@
 **EM 기법 사용법**
 
 1. 입력 형태
-  - 압력: PCL의 Type PointXYZ를 입력
+  - 입력: PCL의 Type PointXYZ를 입력
   
 2. 옵션 설정
   - gmm(num_clusters, viz, max_iters, tol)
