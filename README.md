@@ -1,11 +1,18 @@
 **EM 기법 사용법**
 
-- 입력 형태
+1. 입력 형태
+  - 압력: PCL의 Type PointXYZ를 입력
+  
+2. 옵션 설정
+  - gmm(num_clusters, viz, max_iters, tol)
+  - num_clusters: 클러스터를 몇개 생성시킬 것인가?
+  - viz: 실행 과정을 시각화 할 것인가? (기본: false)
+  - max_iters: 최대 반복 횟수 (기본: 200번)
+  - tol: 최소 에러양 (기본: 1e-3)
 
-- 옵션 설정
-
-- 함수 사용
-
+3. 함수 사용
+  - ExpectationMaximization gmm(2, true) 선언 후 gmm.run(cloud)를 싱행한다.
+    
 <img width="962" height="572" alt="image" src="https://github.com/user-attachments/assets/03324bb6-a3be-456a-b68b-dcb6fe952e68" />
 
 **EM 기법 설명**
