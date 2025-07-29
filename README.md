@@ -1,5 +1,6 @@
 **EM 기법 사용법**
-
+  -
+  
 1. 입력 형태
   - 입력: PCL의 Type PointXYZ를 입력
   
@@ -16,7 +17,8 @@
 <img width="962" height="572" alt="image" src="https://github.com/user-attachments/assets/03324bb6-a3be-456a-b68b-dcb6fe952e68" />
 
 **EM 기법 설명**
-
+  - 
+  
 정의)
 
 관측되지 않은 데이터가 있을 때 전체 데이터의 가능도를 최대화하는 파라미터를 추정하는 것
